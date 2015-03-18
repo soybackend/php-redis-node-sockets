@@ -1,0 +1,25 @@
+{
+  "name": "php-redis-node-sockets",
+  "version": "1.0.0",
+  "description": "Ejemplo de envío de notificaciones desde php a través de websockets",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/soybackend/php-redis-node-sockets.git"
+  },
+  "author": "@soybackend",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/soybackend/php-redis-node-sockets/issues"
+  },
+  "homepage": "https://github.com/soybackend/php-redis-node-sockets",
+  "dependencies": {
+    "express": "^4.12.3",
+    "redis": "^0.12.1",
+    "socket.io": "^1.3.5"
+  }
+}
